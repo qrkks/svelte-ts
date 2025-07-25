@@ -21,3 +21,15 @@
 		<p style="color: red;">{form.error}</p>
 	{/if}
 </form>
+
+<ul>
+	{#each data.data as item, index}
+		<li class="flex items-center gap-5 py-1">
+			{index + 1}. {item.testField} {item.createdAt}
+			<form class="inline" action="?/delete" method="post" use:enhance>
+				<input type="hidden" name="id" value={item.id} />
+				<button type="submit">Delete</button>
+			</form>
+		</li>
+	{/each}
+</ul>
