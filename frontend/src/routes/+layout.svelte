@@ -15,11 +15,11 @@
 	</nav>
 </header>
 
-<h2>Layout Page </h2>
+<!-- <h2>Layout Page </h2>
 <pre>{JSON.stringify(page, null, 2)}</pre>
 
 <h2>Layout Data</h2>
-<pre>{JSON.stringify(data, null, 2)}</pre>
+<pre>{JSON.stringify(data, null, 2)}</pre> -->
 
 <main>
 	{@render children()}

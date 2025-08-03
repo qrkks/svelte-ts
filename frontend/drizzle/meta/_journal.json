@@ -1,20 +1,20 @@
 {
-  "version": "7",
-  "dialect": "sqlite",
-  "entries": [
-    {
-      "idx": 0,
-      "version": "6",
-      "when": 1753073555486,
-      "tag": "0000_nappy_dazzler",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "6",
-      "when": 1753093466390,
-      "tag": "0001_perpetual_khan",
-      "breakpoints": true
-    }
-  ]
+	"version": "7",
+	"dialect": "sqlite",
+	"entries": [
+		{
+			"idx": 0,
+			"version": "6",
+			"when": 1753073555486,
+			"tag": "0000_nappy_dazzler",
+			"breakpoints": true
+		},
+		{
+			"idx": 1,
+			"version": "6",
+			"when": 1753093466390,
+			"tag": "0001_perpetual_khan",
+			"breakpoints": true
+		}
+	]
 }
