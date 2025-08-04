@@ -8,7 +8,7 @@
 
 {#if isChild}
 	<nav>
-		<button onclick={() => history.back()}>back</button>
+		<button type="button" class="cursor-pointer" onclick={() => history.back()}>back</button>
 	</nav>
 {/if}
 
